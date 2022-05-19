@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <title>GameMania - Games</title>
+</head>
+<body>
+    <div id="page wraper"></div>
+    <section id="header">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="index.html"><img src="./imgs/gamemania.png" alt=""></a>
+        </div>
+
+
+        <!-- NAV -->
+        <a href="#" class="menu">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="games.html" class="active">Games</a>
+            <a href="consoles.html">Consoles</a>
+            <a href="faleconosco.html">Fale Conosco</a>
+        </nav>
+    </section>
+
+        <div class="games">
+            <p>Ação</p>
+            <div class="row">
+                <div class="cardgreen">
+                    <h2>Call of Duty: Black OPS III</h2>
+                    <img src="./imgs/acao/codbo3.jpg" class="image">
+                </div>
+
+                <div class="cardgreen">
+                    <h2>DOOM: Eternal</h2>
+                    <img src="./imgs/acao/doometernal.jpg" class="image">
+                </div>
+                <div class="cardgreen">
+                    <h2>Battlefield 2042</h2>
+                    <img src="./imgs/acao/bf2042.jpg" class="image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cardgreen">
+                    <h2>ULTRAKILL</h2>
+                    <img src="./imgs/acao/ultrakill.jpg" class="image">
+                </div>
+
+                <div class="cardgreen">
+                    <h2>Borderlands 3</h2>
+                    <img src="./imgs/acao/borderlands3.jpg" class="image">
+                </div>
+                <div class="cardgreen">
+                    <h2>Yakuza 0</h2>
+                    <img src="./imgs/acao/yakuza0.jpg" class="image">
+                </div>
+            </div>
+            <p>Aventura</p>
+            <div class="row">
+                <div class="cardblue">
+                    <h2>Uncharted The Nathan Drake Collection</h2>
+                    <img src="./imgs/aventura/uncharted.jpg" class="image">
+                </div>
+                <div class="cardblue">
+                    <h2>The Legend of Zelda: Breath of the Wild</h2>
+                    <img src="./imgs/aventura/zelda.png" class="image">
+                </div>
+                <div class="cardblue">
+                    <h2>Shadow of the Tomb Raider</h2>
+                    <img src="./imgs/aventura/shadowoftomraider.jpg" class="image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cardblue">
+                    <h2>Super Mario Odyssey</h2>
+                    <img src="./imgs/mario.jpg" class="image">
+                </div>
+                <div class="cardblue">
+                    <h2>Dishonored 2</h2>
+                    <img src="./imgs/aventura/dishonored.jpg" class="image">
+                </div>
+                <div class="cardblue">
+                    <h2>Assassin's Creed: Valhalla</h2>
+                    <img src="./imgs/aventura/asssassinscreed.jpg" class="image">
+                </div>
+            </div>
+        </div>
+        <div class="caheader">
+            <p>Redes Sociais</p>
+            <br>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <br><br>
+            <span>Direitos Reservados - Turma 8 Técnico em Informática</span>
+        </div>
+        <script>
+            const menu = document.querySelector('.menu');
+            menu.addEventListener('click', function(){
+                this.classList.toggle('open');
+            });
+        </script>
+</body>
+</html>

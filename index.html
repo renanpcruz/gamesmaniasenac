@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d  evice-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>GamesMania - Home</title>
+</head>
+<body>
+    <div id="page wraper"></div>
+    <section id="header">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="index.html"><img src="./imgs/gamemania.png" alt=""></a>
+        </div>
+
+
+        <!-- NAV -->
+        <a href="#" class="menu">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="games.html">Games</a>
+            <a href="consoles.html">Consoles</a>
+            <a href="faleconosco.html">Fale Conosco</a>
+        </nav>
+    </section>
+
+    <!-- Banner -->
+    <section id="banner">
+        <header>
+                <h2>Os melhores jogos você encontra aqui!</h2>
+        </header>
+    </section>
+
+        <!-- BODY -->
+        <section class="body">
+            <p>Destaques</p>
+
+            <div class="row">
+                <div class="col">
+                    <section class="first">
+                        <header>
+                            <h2>Super Mario Odyssey</h2>
+                        </header>
+                        <img src="./imgs/mario.jpg">
+                    </section>
+                </div>
+
+                <div class="col">
+                    <section class="second">
+                        <header>
+                            <h2>Persona 5 Royal</h2>
+                        </header>
+                        <img src="./imgs/persona5r.jpg">
+                    </section>
+                </div>
+
+                <div class="col">
+                    <section class="third">
+                        <header>
+                            <h2>The Legend of Zelda</h2>
+                        </header>
+                        <img src="./imgs/zelda.jpg">
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div class="caheader">
+            <p>Redes Sociais</p>
+            <br>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <br><br>
+            <span>Direitos Reservados - Turma 8 Técnico em Informática</span>
+        </div>
+        <script>
+            const menu = document.querySelector('.menu');
+            menu.addEventListener('click', function(){
+                this.classList.toggle('open');
+            });
+        </script>
+    </body>
+</html>

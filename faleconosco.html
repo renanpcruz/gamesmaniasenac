@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <title>GamesMania - Fale Conosco</title>
+</head>
+<body>
+    <div id="page wraper"></div>
+    <section id="header">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="index.html"><img src="/imgs/gamemania.png" alt=""></a>
+        </div>
+
+
+        <!-- NAV -->
+        <nav>
+            <a href="#" class="menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="consoles.html">Consoles</a>
+            <a href="faleconosco.html" class="active">Fale Conosco</a>
+        </nav>
+    </section>
+        <form class="contato">
+            <br>
+            <h1>Fale Conosco</h1>
+            <br><br><br>
+
+            <label class="nome" for="nome">Nome</label><br>
+            <input class="libhome" name="nome" id="nome" placeholder="Digite o seu nome completo">
+            <br><br>
+
+            <label for="tel" class="tel">Celular</label><br>
+            <input class="libcel" name="cel" id="cel" placeholder="(99)99999-9999">
+            <br><br>
+            <label class="email" for="email">E-mail</label><br>
+            <input class="libemail" name="email" id="email" placeholder="Digite o seu endereço de e-mail">
+            <br><br>
+            <label class="assunto">Assunto</label><br>
+            <textarea class="textoassunto" name="q_obs" id="q_obs" cols="65" rows="20"></textarea>
+            <br><br>
+
+            <button class="button">Enviar</button>
+        </form>
+        <div class="caheader">
+            <p>Redes Sociais</p>
+            <br>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <br><br>
+            <span>Direitos Reservados - Turma 8 Técnico em Informática</span>
+        </div>
+        <script>
+            const menu = document.querySelector('.menu');
+            menu.addEventListener('click', function(){
+                this.classList.toggle('open');
+            });
+        </script>
+</body>
+</html>
